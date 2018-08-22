@@ -5,6 +5,7 @@ def initialize(path="./db/mp3s")
 MusicImporter.new(path).import
 end
 def call
+<<<<<<< HEAD
   input=""
   while input !="exit"
 puts "Welcome to your music library!"
@@ -77,4 +78,10 @@ if (1..Song.all.length).include?(input)
 end
 puts "Playing #{song.name} by #{song.artist.name}" if song
 end
+=======
+puts "Welcome to your music library!"
+
+end
+
+>>>>>>> f78834b34b447e5e43a70b969449252708aa5d53
 end
